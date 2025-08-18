@@ -1,0 +1,29 @@
+# Dependencies
+*/vendor/
+*/__pycache__/
+*/node_modules/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment files
+.env
+.env.local
+
+# Upload directories
+*/uploads/
+!*/uploads/.gitkeep
+
+# Log files
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
